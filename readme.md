@@ -181,7 +181,6 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 - [commander](https://github.com/tj/commander.js) - Parse command line flags from TJ
 - [pace](https://github.com/cpsubrian/pace) - Nice looking progress bar
-
 - [chalk](https://github.com/sindresorhus/chalk) - Terminal string styling done right.
 - [meow](https://github.com/sindresorhus/meow) - CLI app helper.
 - [minimist](https://github.com/substack/minimist) - Parse command-line flags.
