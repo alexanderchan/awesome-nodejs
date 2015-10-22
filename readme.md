@@ -7,6 +7,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 ## Packages
 
+- [Utility](#utility)
 - [Mad science](#mad-science)
 - [Command-line apps](#command-line-apps)
 - [Functional programming](#functional-programming)
@@ -53,6 +54,9 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [Weird](#weird)
 - [Miscellaneous](#miscellaneous)
 
+### Utility
+
+- [arrify](https://github.com/sindresorhus/arrify) - Turn anything into an array :star:
 
 ### Mad science
 
