@@ -299,6 +299,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 	- [bluebird-co](https://github.com/novacrazy/bluebird-co) - A set of high performance yield handlers for Bluebird coroutines.
 - Promises
 	- [Bluebird](https://github.com/petkaantonov/bluebird) - A fully featured promise library with focus on innovative features and performance.
+	- [Promisify](https://github.com/sindresorhus/pify) - Quickly promisify callback style - sindresohus
 	- [pinkie-promise](https://github.com/floatdrop/pinkie-promise) - Promise ponyfill.
 - Streams
 	- [Highland.js](http://highlandjs.org) - Manages synchronous and asynchronous code easily, using nothing more than standard JavaScript and Node-like Streams.
