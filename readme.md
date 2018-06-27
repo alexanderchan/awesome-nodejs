@@ -29,6 +29,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 ### Web tools
 
 - [codesandbox.io](https://codesandbox.io) - Online ide
+- [npms.io](https://npms.io/) - alternative NPM search
 
 ## License
 
