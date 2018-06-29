@@ -28,7 +28,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 # Graphql
 
-[apollo](https://www.apollographql.com) - Apollo has a very mature set of tools for graphql from client to server
+[apollo](https://www.apollographql.com) - Apollo has a very wide set of tools for graphql from client to server
 
 | Alternative                                    | Comments                                                                                                                                                                                            |
 | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
