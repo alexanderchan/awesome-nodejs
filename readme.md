@@ -35,7 +35,7 @@ Alternative	| Why/Why not?
 Alternative	| Why not?
 --------------- | -------------
  glamourous	| see (message)[https://github.com/paypal/glamorous/issues/419].  Could consider for react-native 
- [styled-components](https://www.styled-components.com/) | emotion has api inspired by both glamourous and styled-components
+ (styled-components)[https://www.styled-components.com] | emotion has api inspired by both glamourous and styled-components
  
 ### React - State management
 
