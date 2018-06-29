@@ -29,9 +29,10 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 ### Routing
 
 [router5](https://router5.js.org/) - Router as state seems to allow a lot of flexibility (cancel routes) etc
-| Alternative | Comments
-| ---------------------------------------------- | ----
-| [react-router](https://reacttraining.com/react-router/) | The most popular router
+
+| Alternative                                             | Comments                |
+| ------------------------------------------------------- | ----------------------- |
+| [react-router](https://reacttraining.com/react-router/) | The most popular router |
 
 ### Graphql
 
