@@ -26,7 +26,14 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 | RxJs              | Observables are outstanding at managing complex async actions. I tried using [acdlite's](https://github.com/acdlite/react-rx-component) but didn't work out. If going down the rxjs route also consider [redux-observable](https://github.com/redux-observable/redux-observable)                                                                                                                                                               |
 | apollo-link-state | Local state management using graphql. It still seems like a good idea to have all global state changes pass through a central store so that the same changes occur at the same place. Somehow writing to the cache doesn't feel natural yet (although conceptually it's similar to setState and you could really think of cache as a store so it's not as scary). Maybe after working with more mutations/queries I'll feel better about this. |
 
-# Graphql
+### Routing
+
+[router5](https://router5.js.org/) - Router as state seems to allow a lot of flexibility (cancel routes) etc
+| Alternative | Comments
+| ---------------------------------------------- | ----
+| [react-router](https://reacttraining.com/react-router/) | The most popular router
+
+### Graphql
 
 [apollo](https://www.apollographql.com) - Apollo has a very wide set of tools for graphql from client to server
 
