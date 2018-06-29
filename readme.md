@@ -21,15 +21,56 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 	entities.decodeXML("asdf &amp; &#xFF; &#xFC; &apos;");  // "asdf & ÿ ü '"
 	entities.decodeHTML("asdf &amp; &yuml; &uuml; &apos;"); // "asdf & ÿ ü '"
 ```
+Alternative	| Why/Why not?
+--------------- | -------------
+ qs		| querystring only available on node and some of the qs implementations not as maintained |
 
 
-### React
+# React
+
+### CSS in JS
+
+- [emotion](https://emotion.sh) - Fast css in js by updating classes over direct styling
+
+Alternative	| Why not?
+--------------- | -------------
+ glamourous	| see (message)[https://github.com/paypal/glamorous/issues/419].  Could consider for react-native 
+ [styled-components](https://www.styled-components.com/) | emotion has api inspired by both glamourous and styled-components
+ 
+### React - State management
+
+- [unstated](https://github.com/jamiebuilds/unstated) - Simple state management.  As much as I enjoy mobx, this is easier for code handoff to understand the pub/sub and this.setState since most react devs will learn this.  
+
+Alternative	| Why not?
+--------------- | -------------
+ mobx		| Slightly higher learning curve and a bit more setup if using decorators.  If perf gets slow, try mobx
+ redux		| More setup, probably better for a larger app but mobx should also handle the same cases.  Use with immerjs
+ 
+# Packaging
+
+- [parceljs](https://parceljs.org/) - Fast re-builds
+
+Alternative				| Why not?
+--------------- 			| -------------
+ [webpack](https://webpack.js.org/)	| More complex, slower, but is a bit more established
 
 
-### Web tools
+## Web tools
 
 - [codesandbox.io](https://codesandbox.io) - Online ide
 - [npms.io](https://npms.io/) - alternative NPM search
+
+
+# Utils
+
+- [lodash](https://lodash.com) - General purpose util library
+- [date-fns](https://date-fns.org/) - Date functions
+
+Alternative	| Why not?
+--------------- | -------------
+ moment		| larger library if including all locals and some [performance](https://raygun.com/blog/moment-js-vs-date-fns/) issues
+
+
 
 ## License
 
