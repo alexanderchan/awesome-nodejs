@@ -19,11 +19,20 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 
 - [unstated](https://github.com/jamiebuilds/unstated) - Simple state management. As much as I enjoy mobx and learnt a lot from redux, unstated has a simple api to understand. One only needs to know: pub/sub and this.setState. Regardless of state management library choice, it is worth watching the free courses on egghead on mobx and redux as well as [Michel Westrate's talk](https://www.youtube.com/watch?v=Gyp2QDr7YkU).
 
-| Alternative | Comments                                                                                                                                                                                                                                                                         |
-| ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| mobx        | Slightly higher learning curve and a bit more setup if using decorators. If perf gets slow, try mobx                                                                                                                                                                             |
-| redux       | More setup, probably better for a larger app but mobx should also handle the same cases. Use with immerjs                                                                                                                                                                        |
-| RxJs        | Observables are outstanding at managing complex async actions. I tried using [acdlite's](https://github.com/acdlite/react-rx-component) but didn't work out. If going down the rxjs route also consider [redux-observable](https://github.com/redux-observable/redux-observable) |
+| Alternative       | Comments                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| mobx              | Slightly higher learning curve and a bit more setup if using decorators. If perf gets slow, try mobx                                                                                                                                                                                                                                                                                                                                           |
+| redux             | More setup, probably better for a larger app but mobx should also handle the same cases. Use with immerjs                                                                                                                                                                                                                                                                                                                                      |
+| RxJs              | Observables are outstanding at managing complex async actions. I tried using [acdlite's](https://github.com/acdlite/react-rx-component) but didn't work out. If going down the rxjs route also consider [redux-observable](https://github.com/redux-observable/redux-observable)                                                                                                                                                               |
+| apollo-link-state | Local state management using graphql. It still seems like a good idea to have all global state changes pass through a central store so that the same changes occur at the same place. Somehow writing to the cache doesn't feel natural yet (although conceptually it's similar to setState and you could really think of cache as a store so it's not as scary). Maybe after working with more mutations/queries I'll feel better about this. |
+
+# Graphql
+
+[apollo](https://www.apollographql.com) - Apollo has a very mature set of tools for graphql from client to server
+
+| Alternative                                    | Comments                                                                                                                                                                                            |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [urql](https://github.com/FormidableLabs/urql) | urql has a nice implementation of provider/queries. Apollo 2.x borrowed a lot from this api and apollo has some more useful utilities like persistent and client state as well as browser dev tools |
 
 # Packaging
 
@@ -57,3 +66,12 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+# Useful regex
+
+Since I always flip my markdown - square then round brackets [comes first] and (url).
+
+```
+    \((.*?)\)\[(.*?)\]
+    [$1]($2)
+```
