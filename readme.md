@@ -1,30 +1,8 @@
 # Awesome js [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-> A curated list of delightful js
+> A curated and slightly opinionated list of delightful js. Some other libraries I've used or considered and why I've chosen one over the other 🤷. Alternatives are all excellent and may fit one's use case.
 
-Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
-
-
-### Utility
-
-- [arrify](https://github.com/sindresorhus/arrify) - Turn anything into an array :star:
-
-### HTML
-
-- [entities](https://github.com/fb55/entities) - encode/decode entities
-```
-	var entities = require("entities");
-	//encoding
-	entities.encodeXML("&#38;");  // "&amp;#38;"
-	entities.encodeHTML("&#38;"); // "&amp;&num;38&semi;"
-	//decoding
-	entities.decodeXML("asdf &amp; &#xFF; &#xFC; &apos;");  // "asdf & ÿ ü '"
-	entities.decodeHTML("asdf &amp; &yuml; &uuml; &apos;"); // "asdf & ÿ ü '"
-```
-Alternative	| Why/Why not?
---------------- | -------------
- qs		| querystring only available on node and some of the qs implementations not as maintained |
-
+Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.  
 
 # React
 
@@ -34,17 +12,18 @@ Alternative	| Why/Why not?
 
 Alternative	| Why not?
 --------------- | -------------
- glamourous	| see (message)[https://github.com/paypal/glamorous/issues/419].  Could consider for react-native 
- (styled-components)[https://www.styled-components.com] | emotion has api inspired by both glamourous and styled-components
+ glamourous	| see [message](https://github.com/paypal/glamorous/issues/419).  Could consider for react-native 
+ [styled-components](https://www.styled-components.com) | emotion has api inspired by both glamourous and styled-components
  
 ### React - State management
 
-- [unstated](https://github.com/jamiebuilds/unstated) - Simple state management.  As much as I enjoy mobx, this is easier for code handoff to understand the pub/sub and this.setState since most react devs will learn this.  
+- [unstated](https://github.com/jamiebuilds/unstated) - Simple state management.  As much as I enjoy mobx and learnt a lot from redux, unstated has a simple api to understand.  One only needs to know: pub/sub and this.setState.  Regardless of state management library choice, it is worth watching the free courses on egghead on mobx and redux as well as [Michel Westrate's talk](https://www.youtube.com/watch?v=Gyp2QDr7YkU).
 
 Alternative	| Why not?
 --------------- | -------------
  mobx		| Slightly higher learning curve and a bit more setup if using decorators.  If perf gets slow, try mobx
  redux		| More setup, probably better for a larger app but mobx should also handle the same cases.  Use with immerjs
+ RxJs		| Observables are outstanding at managing complex async actions.  I tried using [acdlite's](https://github.com/acdlite/react-rx-component) but didn't work out.  If going down the rxjs route also consider [redux-observable](https://github.com/redux-observable/redux-observable)
  
 # Packaging
 
@@ -64,11 +43,18 @@ Alternative				| Why not?
 # Utils
 
 - [lodash](https://lodash.com) - General purpose util library
+- [arrify](https://github.com/sindresorhus/arrify) - Turn anything into an array :star:
+- [entities](https://github.com/fb55/entities) - encode/decode entities
+
+Alternative	| Why/Why not?
+--------------- | -------------
+ qs		| querystring only available on node and some of the qs implementations not as maintained |
+
 - [date-fns](https://date-fns.org/) - Date functions
 
 Alternative	| Why not?
 --------------- | -------------
- moment		| larger library if including all locals and some [performance](https://raygun.com/blog/moment-js-vs-date-fns/) issues
+ moment		| larger library if including all locals and some [performance](https://raygun.com/blog/moment-js-vs-date-fns/) concerns
 
 
 
