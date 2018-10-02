@@ -34,6 +34,12 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 | ------------------------------------------------------- | ----------------------- |
 | [react-router](https://reacttraining.com/react-router/) | The most popular router |
 
+### Useful components
+
+[react-dates](https://github.com/airbnb/react-dates) - Airbnb's datepicker
+[react-select](https://github.com/JedWatson/react-select) - Good select component
+[downshift](https://github.com/paypal/downshift) - To build your own autoselect
+
 ### Graphql
 
 [apollo](https://www.apollographql.com) - Apollo has a very wide set of tools for graphql from client to server
@@ -42,6 +48,16 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 | ---------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [urql](https://github.com/FormidableLabs/urql) | urql has a nice implementation of provider/queries. Apollo 2.x borrowed a lot from this api and apollo has some more useful utilities like persistent and client state as well as browser dev tools |
 
+### Animation
+
+[react-spring](https://github.com/drcmda/react-spring) - Combines features of react-motion and react-spring
+[pose](https://popmotion.io/pose/) - Simple animations
+[anime](http://animejs.com/documentation/) - Animates css, svg or dom props
+
+# Good articles
+
+- [Index as keys anti-pattern](https://medium.com/@robinpokorny/index-as-a-key-is-an-anti-pattern-e0349aece318)
+
 # Packaging
 
 - [parceljs](https://parceljs.org/) - Fast re-builds
@@ -49,6 +65,10 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 | Alternative                        | Comments                                            |
 | ---------------------------------- | --------------------------------------------------- |
 | [webpack](https://webpack.js.org/) | More complex, slower, but is a bit more established |
+
+# Server
+
+- [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - The auth0 version of JWT
 
 ## Web tools
 
@@ -70,6 +90,11 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 | Alternative | Comments                                                                                                               |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------- |
 | moment      | larger library if including all locals and some [performance](https://raygun.com/blog/moment-js-vs-date-fns/) concerns |
+
+# Work
+
+- [sheetjs](https://github.com/sheetjs/js-xlsx) - npm i xlsx - Partially open source excel read/write
+- [exceljs](https://github.com/guyonroche/exceljs) - Read/write excel with more options such as colors
 
 ## License
 
