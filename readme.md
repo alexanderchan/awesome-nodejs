@@ -69,6 +69,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 # Server
 
 - [jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - The auth0 version of JWT
+- [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware) - Good wrapper of http-proxy
 
 ## Web tools
 
