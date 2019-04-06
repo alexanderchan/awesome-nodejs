@@ -76,11 +76,16 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [codesandbox.io](https://codesandbox.io) - Online ide
 - [npms.io](https://npms.io/) - alternative NPM search
 
+# DOM Things
+
+- [sweet-scroll](https://github.com/tsuyoshiwada/sweet-scroll) - Scroll around
+
 # Utils
 
 - [lodash](https://lodash.com) - General purpose util library
 - [arrify](https://github.com/sindresorhus/arrify) - Turn anything into an array :star:
 - [entities](https://github.com/fb55/entities) - encode/decode entities
+- [shortid](https://www.npmjs.com/package/shortid) - short ids instead of uuid
 
 | Alternative | Comments                                                                                |
 | ----------- | --------------------------------------------------------------------------------------- |
