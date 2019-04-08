@@ -79,6 +79,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 # DOM Things
 
 - [sweet-scroll](https://github.com/tsuyoshiwada/sweet-scroll) - Scroll around
+- [split](https://github.com/nathancahill/split/) - Split a div
 
 # Utils
 
