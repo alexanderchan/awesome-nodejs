@@ -107,6 +107,10 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [sheetjs](https://github.com/sheetjs/js-xlsx) - npm i xlsx - Partially open source excel read/write
 - [exceljs](https://github.com/guyonroche/exceljs) - Read/write excel with more options such as colors
 
+# Documentation
+
+- [component-playground](https://github.com/FormidableLabs/component-playground) - Show component for live editing
+
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
