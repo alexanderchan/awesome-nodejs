@@ -84,6 +84,7 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 # Utils
 
 - [lodash](https://lodash.com) - General purpose util library
+  - [just](https://github.com/angus-c/just) - Smaller versions of the utils in lodash
 - [arrify](https://github.com/sindresorhus/arrify) - Turn anything into an array :star:
 - [entities](https://github.com/fb55/entities) - encode/decode entities
 
