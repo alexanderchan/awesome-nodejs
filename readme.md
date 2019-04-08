@@ -86,17 +86,21 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [lodash](https://lodash.com) - General purpose util library
 - [arrify](https://github.com/sindresorhus/arrify) - Turn anything into an array :star:
 - [entities](https://github.com/fb55/entities) - encode/decode entities
+
+  | Alternative | Comments                                                                                |
+  | ----------- | --------------------------------------------------------------------------------------- |
+  | qs          | querystring only available on node and some of the qs implementations not as maintained |
+
 - [shortid](https://www.npmjs.com/package/shortid) - short ids instead of uuid
-
-| Alternative | Comments                                                                                |
-| ----------- | --------------------------------------------------------------------------------------- |
-| qs          | querystring only available on node and some of the qs implementations not as maintained |
-
 - [date-fns](https://date-fns.org/) - Date functions
 
 | Alternative | Comments                                                                                                               |
 | ----------- | ---------------------------------------------------------------------------------------------------------------------- |
 | moment      | larger library if including all locals and some [performance](https://raygun.com/blog/moment-js-vs-date-fns/) concerns |
+
+# Command line
+
+- [yargs](https://github.com/yargs/yargs) - Command line. Some [alternatives](https://www.npmtrends.com/commander-vs-yargs-vs-optimist-vs-optionator-vs-minimist-vs-meow)
 
 # Work
 
