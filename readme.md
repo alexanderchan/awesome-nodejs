@@ -108,6 +108,13 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 - [sheetjs](https://github.com/sheetjs/js-xlsx) - npm i xlsx - Partially open source excel read/write
 - [exceljs](https://github.com/guyonroche/exceljs) - Read/write excel with more options such as colors
 
+## Data tables
+
+A [good list of grids](https://github.com/FancyGrid/awesome-grid)
+
+- [canvas datagrid](https://tonygermaneri.github.io/canvas-datagrid/tutorials/reactExample.html) - Tested with 100k recs and is a fast web component
+- [handsontable](https://handsontable.com/) - Free for evaluation and personal use but not OS
+
 # Documentation
 
 - [component-playground](https://github.com/FormidableLabs/component-playground) - Show component for live editing
@@ -115,12 +122,3 @@ Inspired by the [awesome](https://github.com/sindresorhus/awesome) list thing.
 ## License
 
 [![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-# Useful regex
-
-Since I always flip my markdown - square then round brackets [comes first] and (url).
-
-```
-    \((.*?)\)\[(.*?)\]
-    [$1]($2)
-```
